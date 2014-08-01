@@ -211,7 +211,7 @@
                                           height:height
                                           radius:radius].CGPath;
 
-    underCircle.path = [CircularProgressView circlePathWithStartAngle:0
+    underCircle.path = [Util circlePathWithStartAngle:0
                                             end_angle:(2 * M_PI)
                                                 width:width
                                                height:height

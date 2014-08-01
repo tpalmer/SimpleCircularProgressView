@@ -26,6 +26,15 @@
 - (void)setAnimationDone;
 - (void)renderCircularView;
 
++ (UIColor *)blueColor:(CGFloat)alpha;
++ (BOOL) isRetina;
++ (UIBezierPath *)circlePathWithStartAngle:(float)start_angle
+                                 end_angle:(float)end_angle
+                                     width:(CGFloat)width
+                                    height:(CGFloat)height
+                                    radius:(float)radius;
++ (UIColor *)backgroundColor;
+
 @end
 
 @protocol CircularProgressViewDelegate
